@@ -2,6 +2,7 @@ site_name: NightShift
 site_url: https://rmic.github.io/nightshift/
 theme:
   name: material
+  language: fr
   palette: 
 
     # Palette toggle for light mode
@@ -23,14 +24,40 @@ theme:
     - search.highlight
     - search.suggest
     - search.share
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - header.autohide
+    - content.tooltips
+
+nav:
+  - "Introduction":
+      - "Le métier d'ambulancier": index.md
+  - "ATNUP et AMU":
+      - "ATNUP - Transport Non Urgent": atnup.md
+      - "AMU - Aide Médicale Urgente": amu.md
+  - "Premiers secours":
+      - "Règles essentielles d'intervention": 
+          - "Sécurité": premiers_secours/rei/securite.md
+          - "Bilan": premiers_secours/rei/bilan.md
+          - "Appel": premiers_secours/rei/appel.md
+          - "Soins": premiers_secours/rei/soins.md
+  - "Ressources supplémentaires": ressources.md
 
 plugins:
   - with-pdf:
       author: Raphael Michel
-      verbose: true
+  - search
 
 markdown_extensions:
   - admonition
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - toc:
       permalink: true
 
