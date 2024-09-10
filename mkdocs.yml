@@ -1,0 +1,40 @@
+site_name: NightShift
+site_url: https://rmic.github.io/nightshift/
+theme:
+  name: material
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+        
+  features:
+    - header.autohide
+    - search.highlight
+    - search.suggest
+    - search.share
+
+plugins:
+  - with-pdf:
+      author: Raphael Michel
+      verbose: true
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+
+
+
+  
