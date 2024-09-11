@@ -36,10 +36,10 @@ theme:
 
 nav:
   - "Introduction":
-      - "Le métier d'ambulancier": index.md
-  - "ATNUP et AMU":
-      - "ATNUP - Transport Non Urgent": atnup.md
-      - "AMU - Aide Médicale Urgente": amu.md
+      - "Le métier d'ambulancier": introduction/introduction.md
+      - "ATNUP - Transport Non Urgent": introduction/atnup.md
+      - "AMU - Aide Médicale Urgente": introduction/amu.md
+  
   - "Premiers secours":
       - "Règles essentielles d'intervention": 
           - "Sécurité": premiers_secours/rei/securite.md
