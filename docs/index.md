@@ -1,1 +1,5 @@
-# Welcome to Nightshift
+# Bienvenue
+
+Bienvenue sur mon site reprenant les notes pour les cours que je donne.
+
+Actuellement, seule la section [Premiers secours](premiers_secours/rei/securite.md) est remplie.
