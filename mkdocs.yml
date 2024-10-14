@@ -46,6 +46,19 @@ nav:
           - "Bilan": premiers_secours/rei/bilan.md
           - "Appel": premiers_secours/rei/appel.md
           - "Soins": premiers_secours/rei/soins.md
+      - "Malaises":
+          - "Hypertension": premiers_secours/malaises/hypertension.md
+          - "Hypothermie": premiers_secours/malaises/hypothermie.md
+          - "AVC": premiers_secours/malaises/avc.md
+          - "Épilepsie": premiers_secours/malaises/epilepsie.md
+          - "Douleur thoracique": premiers_secours/malaises/douleur_thoracique.md
+          - "Hyperthermie": premiers_secours/malaises/hyperthermie.md
+          - "Hypotension": premiers_secours/malaises/hypotension.md
+          - "Hyperglycémie": premiers_secours/malaises/hyperglycemie.md
+          - "Hypoglycémie": premiers_secours/malaises/hypoglycemie.md
+      - "Lésions de l'appareil locomoteur": premiers_secours/lesions_locomoteur.md
+      - "Gestion des hémorragies": premiers_secours/hemorragies.md
+
   - "Ressources supplémentaires": ressources.md
 
 plugins:
